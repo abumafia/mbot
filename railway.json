@@ -1,6 +1,4 @@
 {
-  "build": {
-    "env": "python",
-    "start": "python mbot.py"
-  }
+  "buildCommand": "pip install -r requirements.txt",
+  "startCommand": "python mbot.py"
 }
